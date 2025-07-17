@@ -1,0 +1,7 @@
+2025-06-26 19:52:00,124 - INFO -Hello
+2025-06-26 19:52:26,396 - INFO - Hello
+2025-06-26 20:17:44,189 - INFO - Starting main program
+2025-06-26 20:17:44,190 - ERROR - Error occured
+2025-06-26 20:17:44,190 - ERROR - Error in  C:\Users\leona\MLProject1\testing.py , line 9 : Custom Error zero
+2025-06-26 20:25:00,446 - INFO - Starting main program
+2025-06-26 20:25:14,644 - ERROR - Error occured

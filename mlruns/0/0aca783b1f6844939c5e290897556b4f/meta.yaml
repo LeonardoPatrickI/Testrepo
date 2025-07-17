@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0aca783b1f6844939c5e290897556b4f/artifacts
+deleted_time: 1751837090131
+end_time: 1751836888402
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0aca783b1f6844939c5e290897556b4f
+run_name: nebulous-elk-533
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751836886164
+status: 4
+tags: []
+user_id: leona

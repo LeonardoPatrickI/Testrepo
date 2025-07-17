@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/3038c0e6d02a499b9163aa168d09e231/artifacts
+end_time: 1751837889922
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3038c0e6d02a499b9163aa168d09e231
+run_name: righteous-mouse-178
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751837867334
+status: 3
+tags: []
+user_id: leona

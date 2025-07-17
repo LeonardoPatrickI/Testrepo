@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/4e6afb5844344e62a7e2951f08f7f871/artifacts
+deleted_time: 1751836845140
+end_time: 1751836263472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 4e6afb5844344e62a7e2951f08f7f871
+run_name: rogue-hound-672
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751836240814
+status: 3
+tags: []
+user_id: leona

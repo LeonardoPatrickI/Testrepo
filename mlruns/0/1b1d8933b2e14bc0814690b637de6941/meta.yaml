@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/1b1d8933b2e14bc0814690b637de6941/artifacts
+deleted_time: 1751836849628
+end_time: 1751836762666
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1b1d8933b2e14bc0814690b637de6941
+run_name: capable-goat-602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751836760435
+status: 4
+tags: []
+user_id: leona

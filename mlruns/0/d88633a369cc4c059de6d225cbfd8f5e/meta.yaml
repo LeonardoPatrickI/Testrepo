@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/d88633a369cc4c059de6d225cbfd8f5e/artifacts
+end_time: 1751837803047
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d88633a369cc4c059de6d225cbfd8f5e
+run_name: receptive-fowl-975
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751837802928
+status: 4
+tags: []
+user_id: leona

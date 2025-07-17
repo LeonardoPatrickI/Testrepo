@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/08bc77b42eb74dd48e4bc7357f15c459/artifacts
+end_time: 1751837152905
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08bc77b42eb74dd48e4bc7357f15c459
+run_name: stately-carp-936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751837129438
+status: 3
+tags: []
+user_id: leona

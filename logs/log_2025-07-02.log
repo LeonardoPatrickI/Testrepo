@@ -1,0 +1,203 @@
+2025-07-02 21:38:41,396 - ERROR - Error while reading YAML file
+2025-07-02 21:39:53,754 - ERROR - Error while reading YAML file
+2025-07-02 21:42:03,665 - ERROR - Error while reading YAML file
+2025-07-02 21:42:51,634 - INFO - Successfuly read the YAML file
+2025-07-02 21:42:51,635 - INFO - Loading data from raw directory
+2025-07-02 21:42:51,635 - INFO - Loading data
+2025-07-02 21:42:51,728 - INFO - Loading data
+2025-07-02 21:42:51,773 - INFO - Starting our Data Processing step
+2025-07-02 21:42:51,773 - INFO - Dropping the columns
+2025-07-02 21:42:51,811 - INFO - Applying Label Encoding
+2025-07-02 21:42:51,829 - INFO - Label Mappings are: 
+2025-07-02 21:42:51,829 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:42:51,829 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:42:51,829 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:42:51,829 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:42:51,829 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:42:51,829 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:42:51,829 - INFO - Doing Skewness Handling
+2025-07-02 21:42:51,835 - INFO - Starting our Data Processing step
+2025-07-02 21:42:51,835 - INFO - Dropping the columns
+2025-07-02 21:42:51,840 - INFO - Applying Label Encoding
+2025-07-02 21:42:51,846 - INFO - Label Mappings are: 
+2025-07-02 21:42:51,846 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:42:51,846 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:42:51,846 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:42:51,846 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:42:51,846 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:42:51,846 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:42:51,846 - INFO - Doing Skewness Handling
+2025-07-02 21:42:51,849 - INFO - Handling Imbalanced data
+2025-07-02 21:42:55,594 - INFO - Data balanced successfully
+2025-07-02 21:42:55,595 - INFO - Starting our Data Processing step
+2025-07-02 21:42:55,595 - INFO - Dropping the columns
+2025-07-02 21:42:55,595 - INFO - Error during preprocess step "['Unnamed: 0', 'Booking_ID'] not found in axis"
+2025-07-02 21:42:55,596 - INFO - Error during preprocessing pipeline step 'KeyError' object has no attribute 'exc_info'
+2025-07-02 21:43:42,895 - INFO - Successfuly read the YAML file
+2025-07-02 21:44:08,227 - INFO - Loading data from raw directory
+2025-07-02 21:44:09,060 - INFO - Loading data
+2025-07-02 21:44:09,911 - INFO - Loading data
+2025-07-02 21:44:11,439 - INFO - Starting our Data Processing step
+2025-07-02 21:44:11,440 - INFO - Dropping the columns
+2025-07-02 21:44:11,489 - INFO - Applying Label Encoding
+2025-07-02 21:44:11,512 - INFO - Label Mappings are: 
+2025-07-02 21:44:11,512 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:44:11,512 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:44:11,512 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:44:11,512 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:44:11,513 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:44:11,513 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:44:11,513 - INFO - Doing Skewness Handling
+2025-07-02 21:44:12,305 - INFO - Starting our Data Processing step
+2025-07-02 21:44:12,305 - INFO - Dropping the columns
+2025-07-02 21:44:12,335 - INFO - Applying Label Encoding
+2025-07-02 21:44:12,347 - INFO - Label Mappings are: 
+2025-07-02 21:44:12,347 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:44:12,347 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:44:12,347 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:44:12,348 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:44:12,348 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:44:12,348 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:44:12,348 - INFO - Doing Skewness Handling
+2025-07-02 21:44:13,304 - INFO - Handling Imbalanced data
+2025-07-02 21:44:15,155 - INFO - Data balanced successfully
+2025-07-02 21:44:16,308 - INFO - Starting our Data Processing step
+2025-07-02 21:44:16,309 - INFO - Dropping the columns
+2025-07-02 21:44:16,312 - INFO - Error during preprocess step "['Unnamed: 0', 'Booking_ID'] not found in axis"
+2025-07-02 21:49:21,439 - INFO - Successfuly read the YAML file
+2025-07-02 21:49:21,440 - INFO - Loading data from raw directory
+2025-07-02 21:49:21,440 - INFO - Loading data
+2025-07-02 21:49:21,525 - INFO - Loading data
+2025-07-02 21:49:21,540 - INFO - Starting our Data Processing step
+2025-07-02 21:49:21,540 - INFO - Dropping the columns
+2025-07-02 21:49:21,541 - INFO - Error during preprocess step "['Unnamed: 0'] not found in axis"
+2025-07-02 21:49:21,541 - INFO - Error during preprocessing pipeline step 'KeyError' object has no attribute 'exc_info'
+2025-07-02 21:49:45,907 - INFO - Successfuly read the YAML file
+2025-07-02 21:49:53,045 - INFO - Loading data from raw directory
+2025-07-02 21:49:53,909 - INFO - Loading data
+2025-07-02 21:49:54,954 - INFO - Loading data
+2025-07-02 21:49:56,288 - INFO - Starting our Data Processing step
+2025-07-02 21:49:56,289 - INFO - Dropping the columns
+2025-07-02 21:49:56,336 - INFO - Applying Label Encoding
+2025-07-02 21:49:56,364 - INFO - Label Mappings are: 
+2025-07-02 21:49:56,364 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:49:56,364 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:49:56,364 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:49:56,364 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:49:56,364 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:49:56,365 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:49:56,365 - INFO - Doing Skewness Handling
+2025-07-02 21:49:57,836 - INFO - Starting our Data Processing step
+2025-07-02 21:49:57,837 - INFO - Dropping the columns
+2025-07-02 21:49:57,866 - INFO - Applying Label Encoding
+2025-07-02 21:49:57,896 - INFO - Label Mappings are: 
+2025-07-02 21:49:57,896 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:49:57,897 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:49:57,897 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:49:57,897 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:49:57,898 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:49:57,898 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:49:57,898 - INFO - Doing Skewness Handling
+2025-07-02 21:50:00,244 - INFO - Handling Imbalanced data
+2025-07-02 21:50:02,779 - INFO - Data balanced successfully
+2025-07-02 21:50:06,667 - INFO - Starting our Data Processing step
+2025-07-02 21:50:06,668 - INFO - Dropping the columns
+2025-07-02 21:50:06,672 - INFO - Error during preprocess step "['Unnamed: 0', 'Booking_ID'] not found in axis"
+2025-07-02 21:53:04,696 - INFO - Successfuly read the YAML file
+2025-07-02 21:53:06,279 - INFO - Loading data from raw directory
+2025-07-02 21:53:06,279 - INFO - Loading data
+2025-07-02 21:53:06,364 - INFO - Loading data
+2025-07-02 21:53:06,382 - INFO - Starting our Data Processing step
+2025-07-02 21:53:06,383 - INFO - Dropping the columns
+2025-07-02 21:53:06,414 - INFO - Applying Label Encoding
+2025-07-02 21:53:06,432 - INFO - Label Mappings are: 
+2025-07-02 21:53:06,432 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:53:06,432 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:53:06,432 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:53:06,432 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:53:06,432 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:53:06,432 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:53:06,432 - INFO - Doing Skewness Handling
+2025-07-02 21:53:06,440 - INFO - Starting our Data Processing step
+2025-07-02 21:53:06,440 - INFO - Dropping the columns
+2025-07-02 21:53:06,445 - INFO - Applying Label Encoding
+2025-07-02 21:53:06,451 - INFO - Label Mappings are: 
+2025-07-02 21:53:06,451 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:53:06,451 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:53:06,451 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:53:06,451 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:53:06,451 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:53:06,451 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:53:06,452 - INFO - Doing Skewness Handling
+2025-07-02 21:53:06,454 - INFO - Handling Imbalanced data
+2025-07-02 21:53:08,970 - INFO - Data balanced successfully
+2025-07-02 21:53:08,970 - INFO - Starting our Data Processing step
+2025-07-02 21:53:08,970 - INFO - Dropping the columns
+2025-07-02 21:53:08,971 - INFO - Error during preprocess step "['Unnamed: 0', 'Booking_ID'] not found in axis"
+2025-07-02 21:53:08,971 - INFO - Error during preprocessing pipeline step 'KeyError' object has no attribute 'exc_info'
+2025-07-02 21:54:56,847 - INFO - Successfuly read the YAML file
+2025-07-02 21:54:56,847 - INFO - Loading data from raw directory
+2025-07-02 21:54:56,847 - INFO - Loading data
+2025-07-02 21:54:56,903 - INFO - Loading data
+2025-07-02 21:54:56,918 - INFO - Starting our Data Processing step
+2025-07-02 21:54:56,918 - INFO - Dropping the columns
+2025-07-02 21:54:56,937 - INFO - Applying Label Encoding
+2025-07-02 21:54:56,951 - INFO - Label Mappings are: 
+2025-07-02 21:54:56,951 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:54:56,951 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:54:56,951 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:54:56,951 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:54:56,951 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:54:56,952 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:54:56,952 - INFO - Doing Skewness Handling
+2025-07-02 21:54:56,956 - INFO - Starting our Data Processing step
+2025-07-02 21:54:56,956 - INFO - Dropping the columns
+2025-07-02 21:54:56,962 - INFO - Applying Label Encoding
+2025-07-02 21:54:56,967 - INFO - Label Mappings are: 
+2025-07-02 21:54:56,967 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-02 21:54:56,967 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:54:56,967 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-02 21:54:56,967 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-02 21:54:56,967 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-02 21:54:56,967 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-02 21:54:56,967 - INFO - Doing Skewness Handling
+2025-07-02 21:54:56,969 - INFO - Handling Imbalanced data
+2025-07-02 21:54:59,347 - INFO - Data balanced successfully
+2025-07-02 21:54:59,348 - INFO - Handling Imbalanced data
+2025-07-02 21:54:59,367 - INFO - Data balanced successfully
+2025-07-02 21:54:59,368 - INFO - Staring our Feature selection step
+2025-07-02 21:55:02,251 - INFO - Features selected : 7                  lead_time
+16    no_of_special_requests
+15        avg_price_per_room
+9              arrival_month
+10              arrival_date
+11       market_segment_type
+3          no_of_week_nights
+2       no_of_weekend_nights
+6         room_type_reserved
+4          type_of_meal_plan
+Name: feature, dtype: object
+2025-07-02 21:55:02,252 - INFO - Feature selection completed successfully
+2025-07-02 21:55:02,261 - INFO - Saving our data in processed folder
+2025-07-02 21:55:02,344 - INFO - Data saved successfuly to artifacts/processed\processed_train.csv]
+2025-07-02 21:55:02,344 - INFO - Saving our data in processed folder
+2025-07-02 21:55:02,364 - INFO - Data saved successfuly to artifacts/processed\processed_train.csv]
+2025-07-02 21:55:02,365 - INFO - Data processing completed successfully
+2025-07-02 22:50:44,093 - INFO - Starting our Model Training Pipeline
+2025-07-02 22:50:44,093 - INFO - Loading data from artifacts/processed\processed_train.csv
+2025-07-02 22:50:44,093 - INFO - Loading data
+2025-07-02 22:50:44,141 - INFO - Loading data from artifacts/processed\processed_train.csv
+2025-07-02 22:50:44,142 - INFO - Loading data
+2025-07-02 22:50:44,156 - INFO - Data splitted successfully for Model Training
+2025-07-02 22:50:44,156 - INFO - Initializing our model
+2025-07-02 22:50:44,156 - INFO - Starting our Hyperparameter tuning
+2025-07-02 22:50:44,156 - INFO - Starting our Model training
+2025-07-02 22:52:29,341 - INFO - Hyperparameter tuning completing
+2025-07-02 22:52:29,342 - INFO - Evaluating our model
+2025-07-02 22:52:29,762 - INFO - Accuracy Score : 0.9976218787158145
+2025-07-02 22:52:29,762 - INFO - Precision Score : 0.9973853101972903
+2025-07-02 22:52:29,762 - INFO - Recall Score : 0.9978596908442331
+2025-07-02 22:52:29,762 - INFO - F1 Score : 0.997622444127437
+2025-07-02 22:52:29,764 - INFO - saving the model
+2025-07-02 22:52:30,147 - INFO - Model saved to artifacts/models/lgbm_model.pkl
+2025-07-02 22:52:30,147 - INFO - Model Training successfully completed

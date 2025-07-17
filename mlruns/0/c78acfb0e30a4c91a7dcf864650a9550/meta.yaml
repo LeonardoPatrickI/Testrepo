@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c78acfb0e30a4c91a7dcf864650a9550/artifacts
+deleted_time: 1751836853889
+end_time: 1751836813017
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c78acfb0e30a4c91a7dcf864650a9550
+run_name: peaceful-pig-637
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751836810764
+status: 4
+tags: []
+user_id: leona

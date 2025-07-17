@@ -4,8 +4,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Running build from GitHub source...'
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
             }
         }
     }
 }
+

@@ -1,0 +1,72 @@
+2025-06-28 21:54:20,328 - INFO - Successfuly read the YAML file
+2025-06-28 21:57:55,027 - INFO - Successfuly read the YAML file
+2025-06-28 21:58:53,357 - INFO - Successfuly read the YAML file
+2025-06-28 22:03:03,779 - INFO - Successfuly read the YAML file
+2025-06-28 22:03:54,871 - INFO - Successfuly read the YAML file
+2025-06-28 22:04:47,743 - INFO - Successfuly read the YAML file
+2025-06-28 22:05:23,874 - INFO - Successfuly read the YAML file
+2025-06-28 22:05:23,874 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:05:23,874 - INFO - Starting data ingestion process
+2025-06-28 22:05:36,003 - ERROR - Error while downloading the csv file
+2025-06-28 22:05:36,003 - INFO - Data ingestion completed
+2025-06-28 22:05:39,586 - INFO - Successfuly read the YAML file
+2025-06-28 22:05:39,586 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:05:39,586 - INFO - Starting data ingestion process
+2025-06-28 22:05:51,644 - ERROR - Error while downloading the csv file
+2025-06-28 22:05:51,644 - INFO - Data ingestion completed
+2025-06-28 22:05:55,204 - INFO - Successfuly read the YAML file
+2025-06-28 22:05:55,204 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:05:55,204 - INFO - Starting data ingestion process
+2025-06-28 22:06:07,218 - ERROR - Error while downloading the csv file
+2025-06-28 22:06:07,218 - INFO - Data ingestion completed
+2025-06-28 22:06:10,669 - INFO - Successfuly read the YAML file
+2025-06-28 22:06:10,671 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:06:11,151 - INFO - Successfuly read the YAML file
+2025-06-28 22:06:11,152 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:06:11,152 - INFO - Starting data ingestion process
+2025-06-28 22:06:15,574 - INFO - Starting data ingestion process
+2025-06-28 22:06:23,172 - ERROR - Error while downloading the csv file
+2025-06-28 22:06:23,172 - INFO - Data ingestion completed
+2025-06-28 22:06:45,614 - ERROR - Error while downloading the csv file
+2025-06-28 22:06:57,428 - INFO - Data ingestion completed
+2025-06-28 22:09:20,411 - INFO - Successfuly read the YAML file
+2025-06-28 22:09:20,412 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:09:20,412 - INFO - Starting data ingestion process
+2025-06-28 22:09:32,583 - ERROR - Error while downloading the csv file
+2025-06-28 22:09:32,583 - INFO - Data ingestion completed
+2025-06-28 22:13:04,560 - INFO - Successfuly read the YAML file
+2025-06-28 22:13:04,562 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:13:04,562 - INFO - Starting data ingestion process
+2025-06-28 22:16:23,238 - ERROR - Error while downloading the csv file
+2025-06-28 22:16:23,239 - INFO - Data ingestion completed
+2025-06-28 22:18:26,363 - INFO - Successfuly read the YAML file
+2025-06-28 22:18:26,364 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:18:26,364 - INFO - Starting data ingestion process
+2025-06-28 22:18:38,224 - ERROR - Error while downloading the csv file
+2025-06-28 22:18:38,224 - INFO - Data ingestion completed
+2025-06-28 22:19:44,351 - INFO - Successfuly read the YAML file
+2025-06-28 22:19:44,352 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:19:48,013 - INFO - Starting data ingestion process
+2025-06-28 22:20:12,142 - ERROR - Error while downloading the csv file
+2025-06-28 22:20:12,956 - INFO - Data ingestion completed
+2025-06-28 22:22:03,125 - INFO - Successfuly read the YAML file
+2025-06-28 22:22:03,127 - INFO - Data ingestion started with mlops_project_pat and file is hotel_reservation.csv
+2025-06-28 22:22:03,127 - INFO - Starting data ingestion process
+2025-06-28 22:22:09,375 - WARNING - No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-06-28 22:22:20,613 - ERROR - Error while downloading the csv file
+2025-06-28 22:22:28,845 - INFO - Data ingestion completed
+2025-06-28 22:24:03,570 - INFO - Successfuly read the YAML file
+2025-06-28 22:24:03,572 - INFO - Data ingestion started with mlops_project1_pat and file is hotel_reservation.csv
+2025-06-28 22:24:03,573 - INFO - Starting data ingestion process
+2025-06-28 22:24:10,308 - WARNING - No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-06-28 22:35:53,984 - INFO - Successfuly read the YAML file
+2025-06-28 22:35:53,984 - INFO - Data ingestion started with mlops_project1_pat and file is hotel_reservation.csv
+2025-06-28 22:35:53,984 - INFO - Starting data ingestion process
+2025-06-28 22:35:58,489 - INFO - CSV File is successfully download to artifacs/raw\raw.csv
+2025-06-28 22:35:58,489 - INFO - Starting the splitting process
+2025-06-28 22:35:58,803 - INFO - Train data saved to artifacs/raw\train.csv
+2025-06-28 22:35:58,803 - INFO - Test data saved to artifacs/raw\test.csv
+2025-06-28 22:35:58,806 - INFO - Data ingestion completed successfully
+2025-06-28 22:35:58,806 - INFO - Data ingestion completed
+2025-06-28 23:11:52,823 - ERROR - Error while reading YAML file
+2025-06-28 23:13:41,711 - ERROR - Error while reading YAML file
