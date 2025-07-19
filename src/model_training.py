@@ -111,7 +111,7 @@ class ModelTraining:
 
     def run(self):
         try:
-            mlflow.set_tracking_uri("http://localhost:5000")
+            #mlflow.set_tracking_uri("http://localhost:5000")
             with mlflow.start_run():
                 logger.info("Starting our Model Training Pipeline")
                 logger.info("Starting our MLFLOW experimentation")

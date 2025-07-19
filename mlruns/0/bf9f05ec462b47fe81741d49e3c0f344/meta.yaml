@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/leona/MLProject1/mlruns/0/bf9f05ec462b47fe81741d49e3c0f344/artifacts
+end_time: 1752949600979
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf9f05ec462b47fe81741d49e3c0f344
+run_name: casual-quail-445
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752949557353
+status: 3
+tags: []
+user_id: leona

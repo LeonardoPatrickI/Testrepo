@@ -1,0 +1,205 @@
+2025-07-19 12:12:35,007 - INFO - Successfuly read the YAML file
+2025-07-19 12:12:35,009 - INFO - Data ingestion started with mlops_project1_pat and file is hotel_reservation.csv
+2025-07-19 12:12:35,009 - INFO - Starting data ingestion process
+2025-07-19 12:12:44,066 - INFO - CSV File is successfully download to artifacs/raw\raw.csv
+2025-07-19 12:12:44,067 - INFO - Starting the splitting process
+2025-07-19 12:12:44,405 - INFO - Train data saved to artifacs/raw\train.csv
+2025-07-19 12:12:44,405 - INFO - Test data saved to artifacs/raw\test.csv
+2025-07-19 12:12:44,408 - INFO - Data ingestion completed successfully
+2025-07-19 12:12:44,408 - INFO - Data ingestion completed
+2025-07-19 12:12:44,410 - INFO - Successfuly read the YAML file
+2025-07-19 12:12:44,410 - INFO - Loading data from raw directory
+2025-07-19 12:12:44,411 - INFO - Loading data
+2025-07-19 12:12:44,491 - INFO - Loading data
+2025-07-19 12:12:44,525 - INFO - Starting our Data Processing step
+2025-07-19 12:12:44,525 - INFO - Dropping the columns
+2025-07-19 12:12:44,563 - INFO - Applying Label Encoding
+2025-07-19 12:12:44,588 - INFO - Label Mappings are: 
+2025-07-19 12:12:44,589 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-19 12:12:44,589 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 12:12:44,589 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-19 12:12:44,589 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-19 12:12:44,589 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 12:12:44,589 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-19 12:12:44,589 - INFO - Doing Skewness Handling
+2025-07-19 12:12:44,595 - INFO - Starting our Data Processing step
+2025-07-19 12:12:44,595 - INFO - Dropping the columns
+2025-07-19 12:12:44,603 - INFO - Applying Label Encoding
+2025-07-19 12:12:44,610 - INFO - Label Mappings are: 
+2025-07-19 12:12:44,610 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-19 12:12:44,610 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 12:12:44,610 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-19 12:12:44,610 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-19 12:12:44,610 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 12:12:44,611 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-19 12:12:44,611 - INFO - Doing Skewness Handling
+2025-07-19 12:12:44,614 - INFO - Handling Imbalanced data
+2025-07-19 12:12:50,085 - INFO - Data balanced successfully
+2025-07-19 12:12:50,086 - INFO - Handling Imbalanced data
+2025-07-19 12:12:50,105 - INFO - Data balanced successfully
+2025-07-19 12:12:50,105 - INFO - Staring our Feature selection step
+2025-07-19 12:12:54,530 - INFO - Features selected : 7                  lead_time
+16    no_of_special_requests
+15        avg_price_per_room
+9              arrival_month
+10              arrival_date
+11       market_segment_type
+3          no_of_week_nights
+2       no_of_weekend_nights
+6         room_type_reserved
+4          type_of_meal_plan
+Name: feature, dtype: object
+2025-07-19 12:12:54,531 - INFO - Feature selection completed successfully
+2025-07-19 12:12:54,540 - INFO - Saving our data in processed folder
+2025-07-19 12:12:54,632 - INFO - Data saved successfuly to artifacts/processed\processed_train.csv]
+2025-07-19 12:12:54,633 - INFO - Saving our data in processed folder
+2025-07-19 12:12:54,662 - INFO - Data saved successfuly to artifacts/processed\processed_test.csv]
+2025-07-19 12:12:54,662 - INFO - Data processing completed successfully
+2025-07-19 12:13:00,434 - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029F5EAD8440>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:13:08,681 - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029F5EA36350>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:13:21,487 - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029F5EA36490>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:13:41,927 - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029F5EA1EFD0>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:14:18,169 - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029F5EA1F230>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:15:26,248 - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029F5EAA5130>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:17:30,302 - WARNING - Retrying (Retry(total=0, connect=0, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029F5EA7A8B0>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:17:34,366 - ERROR - Error in model training pipeline {e}
+2025-07-19 12:28:44,060 - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C374C95940>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:28:52,980 - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C374CC0910>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:29:05,507 - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C374CC0A50>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:29:26,212 - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C374C3E3F0>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:30:02,788 - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C374C3E520>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 12:40:47,213 - INFO - Successfuly read the YAML file
+2025-07-19 12:40:56,760 - INFO - Data ingestion started with mlops_project1_pat and file is hotel_reservation.csv
+2025-07-19 12:40:56,761 - INFO - Starting data ingestion process
+2025-07-19 12:41:11,972 - INFO - CSV File is successfully download to artifacs/raw\raw.csv
+2025-07-19 12:41:11,972 - INFO - Starting the splitting process
+2025-07-19 12:41:12,282 - INFO - Train data saved to artifacs/raw\train.csv
+2025-07-19 12:41:12,282 - INFO - Test data saved to artifacs/raw\test.csv
+2025-07-19 12:41:12,283 - INFO - Data ingestion completed successfully
+2025-07-19 12:41:12,283 - INFO - Data ingestion completed
+2025-07-19 13:45:01,510 - INFO - Successfuly read the YAML file
+2025-07-19 13:45:06,421 - INFO - Data ingestion started with mlops_project1_pat and file is hotel_reservation.csv
+2025-07-19 13:45:13,144 - INFO - Starting data ingestion process
+2025-07-19 13:45:18,879 - INFO - CSV File is successfully download to artifacs/raw\raw.csv
+2025-07-19 13:45:22,935 - INFO - Starting the splitting process
+2025-07-19 13:45:23,275 - INFO - Train data saved to artifacs/raw\train.csv
+2025-07-19 13:45:23,276 - INFO - Test data saved to artifacs/raw\test.csv
+2025-07-19 13:45:25,014 - INFO - Data ingestion completed successfully
+2025-07-19 13:45:27,358 - INFO - Data ingestion completed
+2025-07-19 13:47:51,469 - INFO - Successfuly read the YAML file
+2025-07-19 13:47:51,470 - INFO - Data ingestion started with mlops_project1_pat and file is hotel_reservation.csv
+2025-07-19 13:47:51,470 - INFO - Starting data ingestion process
+2025-07-19 13:47:55,143 - INFO - CSV File is successfully download to artifacs/raw\raw.csv
+2025-07-19 13:47:55,143 - INFO - Starting the splitting process
+2025-07-19 13:47:55,437 - INFO - Train data saved to artifacs/raw\train.csv
+2025-07-19 13:47:55,438 - INFO - Test data saved to artifacs/raw\test.csv
+2025-07-19 13:47:55,440 - INFO - Data ingestion completed successfully
+2025-07-19 13:47:55,440 - INFO - Data ingestion completed
+2025-07-19 13:49:48,819 - INFO - Successfuly read the YAML file
+2025-07-19 13:49:48,819 - INFO - Loading data from raw directory
+2025-07-19 13:49:48,819 - INFO - Loading data
+2025-07-19 13:49:48,907 - INFO - Loading data
+2025-07-19 13:49:48,934 - INFO - Starting our Data Processing step
+2025-07-19 13:49:48,934 - INFO - Dropping the columns
+2025-07-19 13:49:48,973 - INFO - Applying Label Encoding
+2025-07-19 13:49:48,990 - INFO - Label Mappings are: 
+2025-07-19 13:49:48,990 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-19 13:49:48,990 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 13:49:48,990 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-19 13:49:48,990 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-19 13:49:48,990 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 13:49:48,991 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-19 13:49:48,991 - INFO - Doing Skewness Handling
+2025-07-19 13:49:48,995 - INFO - Starting our Data Processing step
+2025-07-19 13:49:48,995 - INFO - Dropping the columns
+2025-07-19 13:49:49,002 - INFO - Applying Label Encoding
+2025-07-19 13:49:49,010 - INFO - Label Mappings are: 
+2025-07-19 13:49:49,010 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-07-19 13:49:49,010 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 13:49:49,010 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-07-19 13:49:49,011 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-07-19 13:49:49,011 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-07-19 13:49:49,011 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-07-19 13:49:49,011 - INFO - Doing Skewness Handling
+2025-07-19 13:49:49,014 - INFO - Handling Imbalanced data
+2025-07-19 13:49:51,510 - INFO - Data balanced successfully
+2025-07-19 13:49:51,511 - INFO - Handling Imbalanced data
+2025-07-19 13:49:51,542 - INFO - Data balanced successfully
+2025-07-19 13:49:51,543 - INFO - Staring our Feature selection step
+2025-07-19 13:49:54,747 - INFO - Features selected : 7                  lead_time
+16    no_of_special_requests
+15        avg_price_per_room
+9              arrival_month
+10              arrival_date
+11       market_segment_type
+3          no_of_week_nights
+2       no_of_weekend_nights
+6         room_type_reserved
+4          type_of_meal_plan
+Name: feature, dtype: object
+2025-07-19 13:49:54,748 - INFO - Feature selection completed successfully
+2025-07-19 13:49:54,755 - INFO - Saving our data in processed folder
+2025-07-19 13:49:54,831 - INFO - Data saved successfuly to artifacts/processed\processed_train.csv]
+2025-07-19 13:49:54,831 - INFO - Saving our data in processed folder
+2025-07-19 13:49:54,852 - INFO - Data saved successfuly to artifacts/processed\processed_test.csv]
+2025-07-19 13:49:54,852 - INFO - Data processing completed successfully
+2025-07-19 13:50:53,176 - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002217C005940>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 13:51:02,011 - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002217C034910>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 13:51:14,650 - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002217C034A50>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 13:51:34,874 - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002217BFB23F0>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 13:52:11,857 - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002217BFB2520>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 13:53:20,321 - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002217C000CB0>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 13:55:24,397 - WARNING - Retrying (Retry(total=0, connect=0, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002217C040C00>: Failed to establish a new connection: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte')': /api/2.0/mlflow/runs/create
+2025-07-19 13:55:28,490 - ERROR - Error in model training pipeline {e}
+2025-07-19 14:09:55,700 - WARNING - Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=120)")': /api/2.0/mlflow/runs/create
+2025-07-19 14:12:00,568 - WARNING - Retrying (Retry(total=5, connect=7, read=5, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=120)")': /api/2.0/mlflow/runs/create
+2025-07-19 14:14:08,794 - WARNING - Retrying (Retry(total=4, connect=7, read=4, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=120)")': /api/2.0/mlflow/runs/create
+2025-07-19 14:16:25,282 - WARNING - Retrying (Retry(total=3, connect=7, read=3, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=120)")': /api/2.0/mlflow/runs/create
+2025-07-19 14:18:58,289 - WARNING - Retrying (Retry(total=2, connect=7, read=2, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=120)")': /api/2.0/mlflow/runs/create
+2025-07-19 14:22:02,330 - WARNING - Retrying (Retry(total=1, connect=7, read=1, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=120)")': /api/2.0/mlflow/runs/create
+2025-07-19 14:26:02,370 - WARNING - Retrying (Retry(total=0, connect=7, read=0, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=120)")': /api/2.0/mlflow/runs/create
+2025-07-19 14:28:02,406 - ERROR - Error in model training pipeline {e}
+2025-07-19 20:09:30,569 - INFO - Starting our Model Training Pipeline
+2025-07-19 20:09:30,571 - INFO - Starting our MLFLOW experimentation
+2025-07-19 20:09:30,571 - INFO - Logging the training and testing data set to MLFLOW
+2025-07-19 20:09:30,571 - INFO - Loading data from artifacts/processed\processed_train.csv
+2025-07-19 20:09:30,571 - INFO - Loading data
+2025-07-19 20:09:30,642 - INFO - Loading data from artifacts/processed\processed_test.csv
+2025-07-19 20:09:30,643 - INFO - Loading data
+2025-07-19 20:09:30,711 - INFO - Data splitted successfully for Model Training
+2025-07-19 20:09:30,711 - INFO - Initializing our model
+2025-07-19 20:09:30,711 - INFO - Starting our Hyperparameter tuning
+2025-07-19 20:09:30,711 - INFO - Starting our Model training
+2025-07-19 20:10:08,297 - INFO - Hyperparameter tuning completing
+2025-07-19 20:10:08,297 - INFO - Evaluating our model
+2025-07-19 20:10:08,432 - INFO - Accuracy Score : 0.8785969084423305
+2025-07-19 20:10:08,432 - INFO - Precision Score : 0.8634703196347032
+2025-07-19 20:10:08,432 - INFO - Recall Score : 0.8994054696789536
+2025-07-19 20:10:08,432 - INFO - F1 Score : 0.8810716365754222
+2025-07-19 20:10:08,433 - INFO - saving the model
+2025-07-19 20:10:08,570 - INFO - Model saved to artifacts/models/lgbm_model.pkl
+2025-07-19 20:10:08,571 - INFO - Logging Params and metrics to MLFLOW
+2025-07-19 20:10:08,571 - INFO - Logging the model into MLFLOW
+2025-07-19 20:10:08,571 - INFO - Model Training successfully completed
+2025-07-19 20:25:57,519 - INFO - Starting our Model Training Pipeline
+2025-07-19 20:25:57,520 - INFO - Starting our MLFLOW experimentation
+2025-07-19 20:25:57,520 - INFO - Logging the training and testing data set to MLFLOW
+2025-07-19 20:25:57,537 - INFO - Loading data from artifacts/processed\processed_train.csv
+2025-07-19 20:25:57,537 - INFO - Loading data
+2025-07-19 20:25:57,592 - INFO - Loading data from artifacts/processed\processed_test.csv
+2025-07-19 20:25:57,592 - INFO - Loading data
+2025-07-19 20:25:57,622 - INFO - Data splitted successfully for Model Training
+2025-07-19 20:25:57,623 - INFO - Initializing our model
+2025-07-19 20:25:57,623 - INFO - Starting our Hyperparameter tuning
+2025-07-19 20:25:57,623 - INFO - Starting our Model training
+2025-07-19 20:26:40,269 - INFO - Hyperparameter tuning completing
+2025-07-19 20:26:40,270 - INFO - Evaluating our model
+2025-07-19 20:26:40,513 - INFO - Accuracy Score : 0.8785969084423305
+2025-07-19 20:26:40,514 - INFO - Precision Score : 0.8634703196347032
+2025-07-19 20:26:40,514 - INFO - Recall Score : 0.8994054696789536
+2025-07-19 20:26:40,514 - INFO - F1 Score : 0.8810716365754222
+2025-07-19 20:26:40,514 - INFO - saving the model
+2025-07-19 20:26:40,742 - INFO - Model saved to artifacts/models/lgbm_model.pkl
+2025-07-19 20:26:40,755 - INFO - Logging Params and metrics to MLFLOW
+2025-07-19 20:26:40,975 - INFO - Logging the model into MLFLOW
+2025-07-19 20:26:40,975 - INFO - Model Training successfully completed
