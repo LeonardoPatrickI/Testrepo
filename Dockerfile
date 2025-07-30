@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY . .
 
-RUN pip install --no-cached-dir -e .
+RUN pip install --no-cache-dir -e .
 
 RUN python pipeline/training_pipeline.py
 
