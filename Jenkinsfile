@@ -3,8 +3,8 @@ pipeline {
 
     environment{
         VENV_DIR = 'venv'
-        GCP_PROJECT = 'corded-vim-464313-j8'
-        GCLOUD_PATH = '/lib/google-cloud-sdk/bin'
+        GCP_PROJECT = "corded-vim-464313-j8"
+        GCLOUD_PATH = "/lib/google-cloud-sdk/bin"
     }
 
     stages {
@@ -31,11 +31,11 @@ pipeline {
             }
         }
 
-        stage('Building and Pushinh Docker Image to GCR') {
+        stage('Building and Pushing Docker Image to GCR') {
             steps {
                 withCredentials([file(credentialsId: 'gcp-key', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
                     script{
-                        echo "Building and Pushinh Docker Image to GCR...."
+                        echo 'Building and Pushing Docker Image to GCR....'
                         sh '''
                         export PATH =$PATH:${GCLOUD_PATH}
                         
