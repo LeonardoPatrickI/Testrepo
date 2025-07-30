@@ -4,7 +4,7 @@ pipeline {
     environment{
         VENV_DIR = 'venv'
         GCP_PROJECT = 'corded-vim-464313-j8'
-        GCLOUD_PATH = 'var/jenkins_home/google-cloud-sdk/bin'
+        GCLOUD_PATH = '/var/jenkins_home/google-cloud-sdk/bin'
     }
 
     stages {
