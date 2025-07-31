@@ -67,7 +67,7 @@ pipeline {
                         
                         gcloud config set project ${GCP_PROJECT}
                         
-                        gcloud run ml-project \
+                        gcloud run deploy ml-project \
                             -- image=gcr.io/${GCP_PROJECT}/ml-project:latest \
                             -- platform=managed \
                             --region=us-central-1 \
